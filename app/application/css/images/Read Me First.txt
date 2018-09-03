@@ -1,0 +1,1 @@
+The image in this folder is the background image for the autocomplete dropdown, do not delete.

@@ -1,0 +1,3 @@
+/*Exception rules for SMARTPHONE in LANDSCAPE orientation only. When a smartphone is turned
+sideways, the text will appear larger so this query contains a single rule that reduces the
+font-size.*/

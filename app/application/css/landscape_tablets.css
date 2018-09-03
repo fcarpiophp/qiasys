@@ -1,0 +1,82 @@
+/*Additional Rules for Medium Desktop Browser Windows and LANDSCAPE TABLETS to reflow the inner
+3-column structure. When a tablet is turned sideways there is ample room to display the menu as
+a column so all we want to do here is reflow the inner 3-column structure that is inside the main
+content column so that the third column drops below the first 2 and spans full width. This query
+also creates a breakpoint for desktop browsers when the window is between 680 and 979 pixels.*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  div.outer {
+    width: 800px !important;
+    margin: 0 auto;
+    position: relative;
+  }
+  /* search results */
+  .item_description {
+    width: 250px;
+  }
+  td.min.search,
+  td.item_min.search,
+  td.max.search,
+  td.item_max.search,
+  td.min_order.search,
+  td.item_min_order.search,
+  td.profit.search,
+  td.gp_dollar.search,
+  td.gp_percent.search,
+  td.supplier.search,
+  td.supplier_name.search {
+    display: none;
+  }
+  input#item_description {
+    width: 75%;
+  }
+  .manufacturer,
+  .item_manufacturer_name,
+  .location,
+  .item_location,
+  .loc,
+  .on.order,
+  .item_on_order {
+    display: none;
+  }
+  table#tab_data {
+    margin-left: 20px;
+    width: 375px;
+  }
+  td.title_proposal_description,
+  td.proposal_description {
+    /* display: block; */
+    min-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 255px;
+  }
+  td.title_proposal_manufacturer,
+  td.proposal_manufacturer,
+  td.title_proposal_location,
+  td.proposal_location,
+  td.title_proposal_msrp,
+  td.proposal_msrp,
+  td.summary_cost,
+  td.summary_location,
+  td.summary_site {
+    display: none;
+  }
+  div.desc_content {
+    width: 100%;
+  }
+  .proposal_confirmation_container > div.seller,
+  .proposal_confirmation_container > div.buyer {
+    width: 45% !important;
+  }
+  .proposal_confirmation_container > div.buyer {
+    margin-right: 15px;
+  }
+  .proposal_confirmation_container > table.sale_data {
+    width: 45% !important;
+  }
+  .proposal_confirmation_container > div.line_items {
+    max-width: 96.5%;
+    margin-left: 10px;
+  }
+}

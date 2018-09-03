@@ -1,0 +1,220 @@
+* {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+footer {
+    color: #666;
+    background: #222;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+}
+
+footer a {
+    color: #999;
+}
+
+footer a:hover {
+    color: #efefef;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.push {
+    height: 63px;
+}
+
+/* not required for sticky footer; just pushes hero down a bit */
+.wrapper > .container {
+    padding-top: 60px;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.wrapper .outer {
+    width: auto; /*SET your width here*/
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+
+.confirmation_logo_image {
+    max-width: 200px;
+    max-height: 130px;
+    float: right;
+}
+
+.proposal_confirmation_container > div.seller,
+.proposal_confirmation_container > div.buyer {
+    padding: 10px; 
+    border: 1px solid #CCCCCC; 
+    margin: 10px; 
+    display: table; 
+    width: 469px;
+}
+
+td.proposal_msrp,
+td.proposal_cost,
+td.proposal_price,
+td.proposal_ext_total {
+    text-align: right;
+}
+
+td.proposal.sell_price,
+td.proposal.extended_price {
+    width: 60px;
+}
+
+.item_description {
+    width: 300px;
+    min-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+}
+
+table {
+    border-collapse: separate;
+}
+
+tr.summary {
+    line-height: 20px;
+}
+
+.dropdown-position {
+    position: absolute;
+    right: 35px !important;
+    top: -2px !important;
+}
+
+
+/*
+                                            WIDGET STYLES
+*/
+
+.inner {
+    float: left;
+    height: 200px;
+    width: 375px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #cccccc;
+    font-size: 0.8em;
+    left: 20px !important;
+}
+
+
+
+td {
+    white-space: nowrap;
+}
+
+table#tab_data {
+    margin-left: 30px;
+    width: 375px;
+}
+
+.pulse_graph_img {
+    margin-right: 30px !important;
+}
+
+.cust_info_container {
+    width: 730px;
+    margin: 0 auto;
+    display: table;
+}
+
+div.outer {
+    margin: 0 auto;
+    position: relative;
+}
+
+/* get user information */
+
+.user_info_form_container_left,
+user_info_form_container_right {
+    width: 390px;
+}
+.user_info_form_container_left input,
+user_info_form_container_right input {
+    float: left;
+}
+
+/* Proposal Confirmation */
+.sale_data th, .sale_data td {
+    line-height: 20px;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+    border-collapse: collapse;
+}
+
+table.sale_data {
+    width: 490px;
+    border: 1px solid #CCCCCC;
+}
+
+th.proposal.description,
+td.proposal.description {
+    min-width: 250px;
+}
+
+td.proposal.sell_price,
+td.proposal.extended_price, 
+td.proposal.total, 
+td.proposal.sub_total,
+td.proposal.tax,
+td.proposal.fees {
+    text-align: right;
+}
+
+div.sale_id {
+    width: 490px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.qiasys_logo {
+    margin-left: -15px;
+    margin-top: 5px;
+}
+
+.no-top-border {
+    border-top: 0px !important;
+}
+
+.left20px {
+    margin-left: 20px;
+}

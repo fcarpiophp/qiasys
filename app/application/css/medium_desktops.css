@@ -1,0 +1,47 @@
+/*3 Column for Medium-Wide Browser Windows (720p). This query sets a breakpoint for medium wide windows
+(between 980 and 1420 pixels) and reflows the inner 3-column structure inside the main content
+column to drop the third column below the first 2.*/
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  td.title_proposal_description,
+  td.proposal_description {
+    display: block;
+    min-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 220px;
+  }
+  div.search_description {
+    display: block;
+    min-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 220px;
+  }
+  th {
+    white-space: nowrap;
+  }
+  th.title_search_min_order,
+  td.search_min_order {
+    display: none;
+  }
+  div.order_report_description {
+    display: block;
+    min-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 220px;
+  }
+  td.order_report_site,
+  td.order_report_location,
+  th.order_report_site,
+  th.order_report_location,
+  td.order_report_supp_id,
+  td.order_report_mfr_id,
+  th.order_report_supp_id,
+  th.order_report_mfr_id {
+    display: none;
+  }
+}

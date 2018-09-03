@@ -1,0 +1,104 @@
+/*2 Column with top spanning menu for Medium Browser Windows and PORTRAIT TABLETS.
+In this query we move the navigation to the top and stack the links. The sidebar
+and main content areas remain as columns. The interior 3-column structure inside
+the main content column is reflowed so that the third column drops below the first
+2 and spans their width.*/
+@media only screen and (min-width: 680px) and (max-width: 979px) and (orientation: portrait) {
+  div.outer {
+    width: 375px !important;
+    margin: 0 auto;
+    position: relative;
+  }
+  input#item_description {
+    width: 70%;
+  }
+  table#tab_data {
+    margin-left: 20px;
+    width: 375px;
+  }
+  /* search results */
+  td.item_description.search {
+    width: 300px;
+  }
+  td.supplier.name.search,
+  td.supplier_name.search,
+  td.empty_cell.search,
+  td.min.search,
+  td.item_min_order.search,
+  td.item_min.search,
+  td.max.search,
+  td.item_max.search,
+  td.site.search,
+  td.item_site.search,
+  td.loc.search,
+  td.item_location.search,
+  td.item_on_order.search,
+  td.on.order.search,
+  td.profit.search,
+  td.gp_dollar.search,
+  td.gp_percent.search {
+    display: none;
+  }
+  .cust_info_container {
+    width: 500px;
+    margin: 0 auto;
+    display: table;
+  }
+  td.title_proposal_description,
+  td.proposal_description {
+    display: block;
+    min-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 230px;
+  }
+  td.title_proposal_manufacturer,
+  td.proposal_manufacturer,
+  td.title_proposal_site,
+  td.proposal_site,
+  td.title_proposal_location,
+  td.proposal_location,
+  td.title_proposal_msrp,
+  td.proposal_msrp,
+  td.title_proposal_line_num,
+  td.proposal_line_num,
+  td.title_proposal_on_order,
+  td.proposal_on_order,
+  td.summary_cost,
+  td.summary_location,
+  td.summary_site,
+  td.summary_line_num,
+  td.summary_part_num,
+  td.summary_quantity,
+  td.title_proposal_uom,
+  td.proposal_uom,
+  td.summary_on_order {
+    display: none;
+  }
+  td.padding {
+    display: block;
+  }
+  div.desc_content {
+    width: 100%;
+  }
+  .proposal_confirmation_container > div.seller,
+  .proposal_confirmation_container > div.buyer {
+    width: 725px;
+    float: left;
+  }
+  table.sale_data {
+    min-width: 750px !important;
+  }
+  th.proposal.description,
+  td.proposal.description {
+    min-width: 240px;
+  }
+  .wrapper {
+    width: 980 !important;
+  }
+  .proposal_confirmation_container > div.line_items {
+    max-width: 72%;
+    margin-left: 10px;
+  }
+}

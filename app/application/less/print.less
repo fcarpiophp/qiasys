@@ -1,0 +1,136 @@
+/* 
+    Document   : print
+    Created on : Jan 7, 2014, 6:20:38 PM
+    Author     : Francisco
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@media print {
+
+    * {
+        font-size: 12pt;
+    }
+
+    .noprint {
+        display: none;
+    }
+
+    body { 
+        background: white; 
+    }
+
+    #menu { 
+        display: none; 
+    }
+
+    #container { 
+        width: auto; 
+        margin: 0 5%; 
+        padding: 0; 
+        border: 0; 
+        float: none !important; 
+        color: black; 
+        background: transparent none; 
+    }
+
+    div.container { 
+        margin-left: 10%; 
+        padding-top: 1em; 
+        border-top: 1px solid #930; 
+    }
+
+    a:link, 
+    a:visited { 
+        color: #520; 
+        background: transparent; 
+        font-weight: bold; 
+        text-decoration: underline; 
+    }
+
+    a:link:after, 
+    a:visited:after { 
+        //content: " (" attr(href) ") "; 
+        font-size: 90%; 
+    }
+
+    table, th, td {
+        border-collapse:collapse;
+        text-align:left;
+    }
+
+    img.logo_image {
+        width: 200px;
+        height: 50px;
+    }
+
+    table.confirmation_header_container,
+    table.sale_data {
+        //width: 670px;
+        width: 100%;
+    }
+
+    .half {
+        width: 50%;
+        padding: 5px;
+    }
+
+    .quarter {
+        width: 25%;
+        padding: 5px;
+    }
+
+    .oneten {
+        width: 10%;
+        padding: 5px;
+    }
+
+    .twoten {
+        width: 20%;
+        padding: 5px;
+    }
+
+    .threeten {
+        width: 30%;
+        padding: 5px;
+    }
+
+    .fourten {
+        width: 40%;
+        padding: 5px;
+    }
+
+    .fiveten {
+        width: 50%;
+        padding: 5px;
+    }
+
+    .sixten {
+        width: 60%;
+        padding: 5px;
+    }
+
+    .seventen {
+        width: 70%;
+        padding: 5px;
+    }
+
+    .eightten {
+        width: 80%;
+        padding: 5px;
+    }
+
+    .nineten {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .tenten {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .text_right {
+        text-align: right;
+    }
+}
+

@@ -1,0 +1,4 @@
+/*1 Column for Narrow Browser Windows (between 0 and 679 pixels) and SMARTPHONE in both orientations.
+In this query we linearize all of the columns so that they stack vertically by setting float to none
+and width to auto. We also use this query to move the menu to the top of the layout and stack its
+links neatly in a vertical orientation. */

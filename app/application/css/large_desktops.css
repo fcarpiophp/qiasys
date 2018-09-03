@@ -1,0 +1,35 @@
+/* CSS for VERY LARGE desktops only (1080p) */
+@media only screen and (min-width: 1281px) and (max-width: 1920px) {
+  /* DASHBOARD (home_page)
+    
+    /* Set width for dashboard, fit 4 widgets wide */
+  /* Proposal */
+  td.proposal_ext_total,
+  td.proposal_msrp,
+  td.proposal_cost,
+  td.proposal_price {
+    text-align: right;
+  }
+  div.proposal_description {
+    display: block;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 500px;
+  }
+  /* Search Results */
+  td.search_part_num {
+    white-space: nowrap;
+    width: auto;
+  }
+  div.order_report_description,
+  div.search_description {
+    display: block;
+    min-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 320px;
+  }
+}
