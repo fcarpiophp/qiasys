@@ -71,7 +71,11 @@ $password = array(
     'style' => 'height: 30px',
 );
 
-mail('g37dude@gmail.com', 'PFS test', 'this is a test');
+if (mail('g37dude@gmail.com', 'PFS test', 'this is a test')) {
+    echo 'email sent';
+} else {
+    echo 'emails not sent';
+}
 ?>
 
 <HTML>

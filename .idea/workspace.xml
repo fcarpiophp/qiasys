@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="690755aa-d544-4056-8014-2109e25304ff" name="Default Changelist" comment="" />
+    <list default="true" id="690755aa-d544-4056-8014-2109e25304ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/application/controllers/proposal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/application/controllers/proposal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/application/images/FatCow_Icons16x16/bullet_database.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/application/images/FatCow_Icons16x16/bullet_database.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/application/libraries/dompdf/lib/fonts/log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/app/application/libraries/dompdf/lib/fonts/log.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/application/views/login_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/application/views/login_form.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,16 +66,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/application/controllers/proposal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="433" selection-start-line="433" selection-end-line="433" />
+            <state relative-caret-position="240">
+              <caret line="458" lean-forward="true" selection-start-line="458" selection-end-line="458" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/application/views/login_form.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -104,6 +109,9 @@
       <find>water</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -117,8 +125,8 @@
         <option value="$PROJECT_DIR$/app/system/core/Common.php" />
         <option value="$PROJECT_DIR$/app/application/config/database.php" />
         <option value="$PROJECT_DIR$/app/application/config/config.php" />
-        <option value="$PROJECT_DIR$/app/application/controllers/proposal.php" />
         <option value="$PROJECT_DIR$/app/application/views/login_form.php" />
+        <option value="$PROJECT_DIR$/app/application/controllers/proposal.php" />
       </list>
     </option>
   </component>
@@ -145,6 +153,7 @@
     <option name="width" value="1299" />
     <option name="height" value="743" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -180,7 +189,7 @@
     <property name="SearchEverywhereHistoryKey" value="log&#9;FILE&#9;file:///opt/lampp/htdocs/pfs/app/application/views/login_form.php&#10;proposal&#9;null&#9;null&#10;config.php&#9;FILE&#9;file:///opt/lampp/htdocs/pfs/app/application/config/config.php&#10;login&#9;FILE&#9;file:///opt/lampp/htdocs/pfs/app/application/views/login_form.php&#10;Common&#9;FILE&#9;file:///opt/lampp/htdocs/pfs/app/system/core/Common.php&#10;mysql_driver&#9;FILE&#9;file:///opt/lampp/htdocs/pfs/app/system/database/drivers/mysql/mysql_driver.php&#10;database&#9;FILE&#9;file:///opt/lampp/htdocs/pfs/app/application/config/database.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535941964077" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535957773183" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,10 +221,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16018000" />
+    <option name="totallyTimeSpent" value="16028000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="25" width="1315" height="743" extended-state="7" />
+    <frame x="51" y="25" width="1315" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26162332" />
@@ -356,17 +365,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/application/controllers/proposal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="433" selection-start-line="433" selection-end-line="433" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/application/views/login_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/controllers/proposal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="458" lean-forward="true" selection-start-line="458" selection-end-line="458" />
         </state>
       </provider>
     </entry>
